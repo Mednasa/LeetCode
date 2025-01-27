@@ -1,0 +1,50 @@
+Bir merdiveni tırmanıyorsunuz. Zirveye ulaşmak için n basamak gerekiyor.
+Her seferinde ya 1 ya da 2 basamak çıkabilirsiniz. En tepeye kaç farklı şekilde tırmanabilirsiniz?
+Örnek 1:
+Girdi: n = 2
+Çıktı: 2
+Açıklama: Zirveye tırmanmanın iki yolu vardır.
+1. 1 adım + 1 adım
+2. 2 adım
+
+
+Örnek 2:
+Girdi: n = 3
+Çıktı: 3
+Açıklama: Zirveye tırmanmanın üç yolu vardır.
+1. 1 adım + 1 adım + 1 adım
+2. 1 adım + 2 adım
+3. 2 adım + 1 adım
+
+Kısıtlamalar:
+1 <= n <= 45
+
+
+Çözüm:
+2 adımlı merdiven için
+1+1
+2
+toplam(2) adet
+
+3 adımlı merdiven için
+
+1+1+1
+1+2
+2+1
+toplam(3) adet
+
+4 adımlı merdiven için
+1+1+1+1
+1+1+2
+1+2+1
+2+1+1
+2+2
+toplam (5) adet
+
+
+
+   Yani belli bir n değerindeki merdiven adeti kendisinden bir ve iki eksik merdiven adetinin toplamından
+   oluşmaktadır formül şöyle dizayn edilir
+
+  P(n) = P(n-1) + P(n-2)
+  aşlangıç değerleri P(1) = 1 ve P(2) = 2 dir
