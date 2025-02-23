@@ -24,9 +24,13 @@ Constraints:
 0 <= nums[i] <= 400
 
 
-Bir sokak boyunca evleri soymayı planlayan profesyonel bir soyguncusunuz. Her evde belirli bir miktar para saklı, her birini soymanızı engelleyen tek kısıtlama, bitişik evlerin güvenlik sistemlerinin bağlı olması ve aynı gece iki bitişik eve girilirse otomatik olarak polisle iletişime geçecek olmasıdır.
+Bir sokak boyunca evleri soymayı planlayan profesyonel bir soyguncusunuz.
+Her evde belirli bir miktar para saklı, her birini soymanızı engelleyen tek kısıtlama,
+bitişik evlerin güvenlik sistemlerinin bağlı olması ve aynı gece iki bitişik eve girilirse
+otomatik olarak polisle iletişime geçecek olmasıdır.
 
-Her evin para miktarını temsil eden bir tamsayı dizisi nums verildiğinde, polisi uyarmadan bu gece soyabileceğiniz maksimum para miktarını döndürün.
+Her evin para miktarını temsil eden bir tamsayı dizisi nums verildiğinde, polisi uyarmadan
+bu gece soyabileceğiniz maksimum para miktarını döndürün.
 
 
 

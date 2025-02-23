@@ -32,9 +32,11 @@ Constraints:
 
 
 
-Size bir nums tamsayı dizisi verildi. Aşağıdaki işlemi istediğiniz sayıda gerçekleştirerek alacağınız puan sayısını maksimize etmek istiyorsunuz:
+Size bir nums tamsayı dizisi verildi. Aşağıdaki işlemi istediğiniz sayıda gerçekleştirerek
+alacağınız puan sayısını maksimize etmek istiyorsunuz:
 
-Herhangi bir nums[i] öğesini seçin ve nums[i] puanı kazanmak için silin. Daha sonra, nums[i] - 1'e eşit olan her öğeyi ve nums[i] + 1'e eşit olan her öğeyi silmelisiniz.
+Herhangi bir nums[i] öğesini seçin ve nums[i] puanı kazanmak için silin. Daha sonra,
+nums[i] - 1'e eşit olan her öğeyi ve nums[i] + 1'e eşit olan her öğeyi silmelisiniz.
 Yukarıdaki işlemi birkaç kez uygulayarak kazanabileceğiniz maksimum puan sayısını döndürün.
 
 
